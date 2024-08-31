@@ -6,8 +6,10 @@ import Vue3SmoothScroll from "vue3-smooth-scroll";
 
 const app = createApp(App);
 
-app.use(Vue3SmoothScroll, {
+const smoothScrollOptions = {
   duration: 1000,
   updateHistory: false,
-});
+};
+
+app.use(Vue3SmoothScroll, smoothScrollOptions);
 app.mount("#app");

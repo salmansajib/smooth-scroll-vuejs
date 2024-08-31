@@ -10,7 +10,9 @@ import Contact from "./components/Contact.vue";
     <header
       class="bg-slate-950 w-full fixed top-0 flex gap-[5rem] items-center p-4"
     >
-      <h1 class="text-3xl font-medium">SmoothScroll</h1>
+      <a href="#home" v-smooth-scroll class="text-3xl font-medium"
+        >SmoothScroll</a
+      >
       <Nav />
     </header>
     <main>
